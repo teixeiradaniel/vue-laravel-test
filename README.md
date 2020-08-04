@@ -7,13 +7,14 @@
 
 ## Comandos para iniciar o projeto
 
+- composer install
+
 - copy .env.example .env
 
 - php artisan key:generate
 
 (Preencher .env com informações do banco de dados)
 
-- composer install
 - php artisan migrate
 - php artisan passport:install
 - php artisan db:seed
